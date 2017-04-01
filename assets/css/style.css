@@ -100,3 +100,49 @@ p {
 #copbut:active{
 	color:black;
 	background-color: #e3d2d6;
+}
+@media screen and (min-width: 375px){
+	header {
+		width:100%;
+		margin: 10px 0px 20px 0px;
+	}
+	.input {
+		width:100%;
+		max-height:150px;
+		margin: 10px 0px 20px 0px;
+	}
+	#search {
+		width:80%;
+		margin:10px;
+		font-size:18px;
+		height:32px;
+	}
+	#submit, #clear{
+		top:0px;
+		left:0px;
+		margin-left:10px;
+		font-size:18px;
+		width:100px;
+		height:32px;
+	}
+	#clear {
+		margin-left: 20px;
+	}
+	.buttons{
+		margin:10px 0px 10px 0px;
+		width:100%;
+	}
+	.gifb{
+		font-size:18px;
+	}
+	.gifs{
+		width:100%;
+		margin:10px 0px 10px 0px;
+	}
+	.giff{
+		padding:0px;
+	}
+	p {
+		padding:0px;
+	}
+}
