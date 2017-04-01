@@ -1,0 +1,102 @@
+header {
+	background:#adb085;
+	font-size:42px;
+	width:980px;
+	padding:20px;
+	text-align:center;
+	margin:20px;
+	opacity:.7;
+}
+body {
+	font-family: 'Muli', sans-serif;
+	background-color: #e3e2d6;
+	background-image: url(https://www.transparenttextures.com/patterns/binding-dark.png);
+}
+.input {
+	background:#adb085;
+	width:980px;
+	padding:20px;
+	opacity:.7;
+	margin:20px;
+	max-height: 65px;
+}
+#search{
+	width:450px;
+	height:50px;
+	font-size:32px;
+	margin-left:40px;
+}
+#submit, #clear {
+	background-color: #6a6a6a;
+	color:white;
+	position:relative;
+	height:50px;
+	font-size:32px;
+	top:-53px;
+}
+#submit:hover, #clear:hover{
+	background-color: #7D7573;
+}
+#submit:active, #clear:active{
+	color:black;
+	background-color: #e3d2d6;
+}
+#submit {
+	left:550px;
+}
+#clear {
+	left:600px;
+}
+.buttons {
+	width:250px;
+	height:80%;
+	margin:20px;
+	padding:20px;
+	background:#adb085;
+	opacity:.8;
+	float:left;
+}
+.gifb {
+	font-size:24px;
+	padding:10px;
+	margin:5px;
+	background-color:#6a6a6a;
+	color:white;
+}
+.gifb:hover {
+	background-color:#7d7573;
+}
+.gifb:active {
+	color:black;
+	background-color: #e3d2d6;
+}
+.gifs{
+	width:650px;
+	height:100%;
+	margin:20px;
+	padding:20px;
+	background:#adb085;
+	opacity:.8;
+	float:left;
+	font-size:24px;
+}
+.giff{
+	padding:20px 100px 20px 150px;
+}
+p {
+	padding-left:150px;
+}
+#copbut{
+	background-color: inherit;
+	color:black;
+	height:30px;
+	font-size:18px;
+	margin-left:20px;
+	border: none;
+}
+#copbut:hover {
+	background-color: #7D7573;
+}
+#copbut:active{
+	color:black;
+	background-color: #e3d2d6;

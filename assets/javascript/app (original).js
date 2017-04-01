@@ -5,21 +5,18 @@ function clear(){
   $("#search").val("")
 }
 
-var giflist = ["buffy", "game of thrones", "the office", "charmed", "battlestar galactica", "parks and recreation", "penny dreadful"]
+var giflist = ["buffy", "charmed", "battlestar galactica"]
 
-  for (var i = 0; i < giflist.length; i++) {
-  buttoncreate(giflist[i])
-  }
-
+for (var i = 0; i < giflist.length; i++) {
+	buttoncreate(giflist[i])
+}
 
 function capture(event){
 	event.preventDefault()
 	var newc = $("#search").val().trim()
-  giflist.push(newc)
-  buttoncreate(newc)
+	buttoncreate(newc)
 	$("#search").val("")
 }
-
 
 function buttoncreate(newb){
 	var button = $("<button>")
@@ -44,7 +41,7 @@ function gif(){
         console.log(result)
       	for (var i = 0; i < result.length; i++) {
       		var gifdiv = $("<div>")
-          var copbut = $("<button>Show URL</button>")
+          var copbut = $("<button>Copy Link</button>")
           copbut.attr("id", "copbut")
           copbut.attr("url", result[i].bitly_url)
       		var ptag = $("<p>").text("Rating: " + result[i].rating)
@@ -61,13 +58,6 @@ function gif(){
       	}
       })
 }
-
-$(document).on("click", "#copbut", copy)
-  function copy (){
-    var clickurl = $(this).attr("url")
-    var pnew = $("<span>").text(" " + clickurl)
-    $(this).html(pnew)
-  }
 
 $(document).on("click", ".giff", action)
 
